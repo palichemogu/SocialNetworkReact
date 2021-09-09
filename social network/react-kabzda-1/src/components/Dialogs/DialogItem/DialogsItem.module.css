@@ -1,0 +1,26 @@
+.dialog img{
+    width:40px;
+    border-radius:50px;
+}
+.dialog a {
+    text-decoration: none;
+   font-size:15px;
+}
+
+.dialog a:link {
+    color: antiquewhite;
+}
+
+.dialog a:visited {
+    color: antiquewhite;
+}
+
+.dialog a:hover {
+    color: #ff7171;
+}
+
+.dialog a.activeLink {
+    /*background-color: rgba(174, 99, 255, 0.32);*/
+    background-color: bisque;
+    color: rgb(53, 0, 79);
+}

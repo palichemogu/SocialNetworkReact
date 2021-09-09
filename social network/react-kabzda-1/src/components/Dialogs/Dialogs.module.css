@@ -1,0 +1,52 @@
+.content {
+    display: grid;
+    grid-template-columns:2fr 10fr;
+}
+.dialogs {
+    padding: 10px;
+}
+
+.dialogs .active {
+    /*background-color: bisque;*/
+    /*color:#18003b;*/
+}
+
+.dialogs .dialog {
+    text-align: center;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+
+}
+
+/*.dialogs a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.dialogs a:link {*/
+/*    color: antiquewhite;*/
+/*}*/
+
+/*.dialogs a:visited {*/
+/*    color: antiquewhite;*/
+/*}*/
+
+/*.dialogs a:hover {*/
+/*    color: #ff7171;*/
+/*}*/
+
+/*.dialogs a.activeLink {*/
+/*    !*background-color: rgba(174, 99, 255, 0.32);*!*/
+/*    background-color: bisque;*/
+/*    color: rgb(53, 0, 79);*/
+/*}*/
+.test{
+    text-align: left;
+}
+.toText {
+    margin-left:100px;
+}

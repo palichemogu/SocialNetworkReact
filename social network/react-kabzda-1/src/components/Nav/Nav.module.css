@@ -1,0 +1,50 @@
+.nav {
+    grid-area: nav;
+    background-color: #18003b;
+    /*vertical-align: middle;*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+}
+
+nav ul li {
+    color: antiquewhite;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+ .nav a {
+    text-decoration: none;
+}
+
+ .nav a:link {
+    color: antiquewhite;
+}
+
+.nav a:visited {
+    color: antiquewhite;
+}
+
+.nav a:hover {
+    color: #ff7171;
+}
+
+.nav a.activeLink {
+    /*background-color: rgba(174, 99, 255, 0.32);*/
+    background-color: bisque;
+    color:#18003b;
+}
+.nav ul li img{
+    width: 30px;
+    vertical-align: middle;
+    padding:0px;
+    border-radius: 40px;
+}
+.nav span{
+    padding-right:10px;
+}
